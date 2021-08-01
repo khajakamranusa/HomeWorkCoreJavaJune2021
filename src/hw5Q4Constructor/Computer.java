@@ -24,7 +24,7 @@ public class Computer {
 		System.out.println("This is from default Constructor of Computer class");	
 	}
 
-	public Computer(String brand, String model, String operatingSystem, int price, boolean madeInUSA, char grade) {
+	public Computer(String brand, String model, String operatingSystem, int price, char grade,boolean madeInUSA) {
 		
 		this.Brand = brand;
 		this.Model = model;
@@ -32,11 +32,48 @@ public class Computer {
 		this.price = price;
 		this.madeInUSA = madeInUSA;
 		this.grade = grade;
-		System.out.println("My Brand: "+ Brand +", Model: " + Model +", OperatingSystem: " +OperatingSystem+", Price: " +price+", Made In USA: "+madeInUSA+", Grade" +grade);
-	}
+		System.out.println("My Brand: "+ Brand +", Model: " + Model +", OperatingSystem: " +OperatingSystem+", Price: " +price+"$, and Made In USA?: "+madeInUSA);
+				 	}
+	
+	
+public Computer(String brand, String model, String operatingSystem, int price, boolean madeInUSA,char grade) {
+		
+		this.Brand = brand;
+		this.Model = model;
+		this.OperatingSystem = operatingSystem;
+		this.price = price;
+		this.madeInUSA = madeInUSA;
+		this.grade = grade;
+		System.out.println("My Brand: "+ Brand +", Model: " + Model +", OperatingSystem: " +OperatingSystem+", Price: " +price+"$, and Made In USA?: "+madeInUSA+"Grade:"+grade);
+}
 
+public Computer(String brand) {
 	
+	this.Brand = brand;
+	System.out.println("Brand: "+brand);
 	
+}
+public Computer(String brand, String model, String operatingSystem)
+{
 	
+	this.Brand = brand;
+	this.Model = model;
+	this.OperatingSystem = operatingSystem;
+	
+	System.out.println("My Brand: "+ Brand +", Model: " + Model +", OperatingSystem: " +OperatingSystem);
+
+}
+
+public Computer(String brand, String model, String operatingSystem, int price, boolean madeInUSA) {
+	
+	this.Brand = brand;
+	this.Model = model;
+	this.OperatingSystem = operatingSystem;
+	this.price = price;
+	this.madeInUSA = madeInUSA;
+	
+	System.out.println("My Brand: "+ Brand +", Model: " + Model +", OperatingSystem: " +OperatingSystem+", Price: " +price+"$, and Made In USA?: "+madeInUSA);
+			 	}
+
 
 }

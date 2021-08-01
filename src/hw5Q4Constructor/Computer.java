@@ -35,17 +35,7 @@ public class Computer {
 		System.out.println("My Brand: "+ Brand +", Model: " + Model +", OperatingSystem: " +OperatingSystem+", Price: " +price+", Made In USA: "+madeInUSA+", Grade" +grade);
 	}
 
-	public Computer(String brand, String model, String operatingSystem, int price, boolean madeInUSA, char grade) {
-		super();
-		Brand = brand;
-		Model = model;
-		OperatingSystem = operatingSystem;
-		this.price = price;		
-		this.grade = grade;
-		this.madeInUSA = madeInUSA;
-		System.out.println("My Brand: "+ Brand +", Model: " + Model +", OperatingSystem: " +OperatingSystem+", Price: " +price+", Grade" +grade+", made In USA: "+madeInUSA);
-		
-	}
+	
 	
 	
 
